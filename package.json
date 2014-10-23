@@ -1,0 +1,14 @@
+{
+  "name": "encryptor",
+  "version": "0.0.1"
+  "description": "A client-side encrypting app",
+  "author": "Derek Maffett",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "dependencies": {
+    "browserify": "*",
+    "watchify": "*"
+  }
+}
