@@ -1,11 +1,16 @@
 {
+  "repository": "encryptorizer",
   "name": "encryptor",
   "version": "0.0.1",
   "description": "A client-side encrypting app",
   "author": "Derek Maffett",
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*"
+    "chai": "*",
+    "jquery": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-mocha": "*",
+    "mocha": "*"
   },
   "dependencies": {
     "browserify": "*",

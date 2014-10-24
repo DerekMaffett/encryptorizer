@@ -11,10 +11,15 @@
     <br>
     <button id="encrypt">Lock Down</button>
 
+    <script type="text/javascript" src="lib/encryptor.js"></script>
     <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
-
-    <script>
-
+    <script src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#encrypt').click(function() {
+          encoder.protect();
+        })
+      })
     </script>
   </body>
 </html>

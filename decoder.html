@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h1>Decryptor</h1>
+  <p>Decrypt your message!</p>
+  <br>
+  <button id="decrypt">Decrypt</button>
+  <br><br>
+  <div id="message"><strong>No message currently :(</strong></div>
+  <script type="text/javascript" src="lib/decryptor.js"></script>
+  <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+  <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#decrypt').click(function() {
+        decoder.decodeMessage();
+      })
+    })
+  </script>
+</body>
+</html>
